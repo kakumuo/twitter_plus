@@ -1,0 +1,100 @@
+{
+ "1989107480736198987": {
+  "ownerId": "grave109",
+  "tweetId": "1989107480736198987",
+  "dislikedBy": {},
+  "createdAt": 1763150810,
+  "updatedAt": 1763150812
+ },
+ "1989126125440897176": {
+  "ownerId": "chillenceo",
+  "tweetId": "1989126125440897176",
+  "dislikedBy": {
+   "KevinAkmuo": {
+    "ownerId": "KevinAkmuo",
+    "dislikeDate": 1763150752
+   }
+  },
+  "createdAt": 1763150752,
+  "updatedAt": 1763150752
+ },
+ "1989175773346123808": {
+  "ownerId": "kbulart",
+  "tweetId": "1989175773346123808",
+  "dislikedBy": {},
+  "createdAt": 1763149687,
+  "updatedAt": 1763149701
+ },
+ "1989236474101846164": {
+  "ownerId": "Garmfield",
+  "tweetId": "1989236474101846164",
+  "dislikedBy": {
+   "x.com": {
+    "ownerId": "x.com",
+    "dislikeDate": 1763149704
+   }
+  },
+  "createdAt": 1763149704,
+  "updatedAt": 1763149704
+ },
+ "1989311594367479944": {
+  "ownerId": "lyn49556",
+  "tweetId": "1989311594367479944",
+  "dislikedBy": {
+   "KevinAkmuo": {
+    "ownerId": "KevinAkmuo",
+    "dislikeDate": 1763149790
+   }
+  },
+  "createdAt": 1763149776,
+  "updatedAt": 1763149790
+ },
+ "1989322166962200903": {
+  "ownerId": "CALAM1TYPANN3",
+  "tweetId": "1989322166962200903",
+  "dislikedBy": {
+   "KevinAkmuo": {
+    "ownerId": "KevinAkmuo",
+    "dislikeDate": 1763150046
+   }
+  },
+  "createdAt": 1763150046,
+  "updatedAt": 1763150046
+ },
+ "1989332875615891779": {
+  "ownerId": "nathanflynn",
+  "tweetId": "1989332875615891779",
+  "dislikedBy": {
+   "KevinAkmuo": {
+    "ownerId": "KevinAkmuo",
+    "dislikeDate": 1763149802
+   }
+  },
+  "createdAt": 1763149802,
+  "updatedAt": 1763149802
+ },
+ "1989337861154562259": {
+  "ownerId": "ibumuc",
+  "tweetId": "1989337861154562259",
+  "dislikedBy": {
+   "KevinAkmuo": {
+    "ownerId": "KevinAkmuo",
+    "dislikeDate": 1763149771
+   }
+  },
+  "createdAt": 1763149762,
+  "updatedAt": 1763149771
+ },
+ "1989375574444577012": {
+  "ownerId": "ParasiticEager2",
+  "tweetId": "1989375574444577012",
+  "dislikedBy": {
+   "KevinAkmuo": {
+    "ownerId": "KevinAkmuo",
+    "dislikeDate": 1763150042
+   }
+  },
+  "createdAt": 1763150042,
+  "updatedAt": 1763150042
+ }
+}

@@ -9,10 +9,23 @@
     "48": "public/icon.png"
   },
 
+  "permissions": [
+    "webRequest", 
+    "nativeMessaging", 
+    "activeTab"
+  ],
+  
+  "host_permissions": ["https://127.0.0.1/*", "http://127.0.0.1/*"], 
+
+  "background": {
+    "scripts": ["dist/background.js"],
+    "type": "module"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.x.com/*"],
-      "js": ["dist/app.js"]
+      "js": ["dist/content_script.js"]
     }
   ]
 }

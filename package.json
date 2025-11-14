@@ -12,9 +12,17 @@
   "dependencies": {
     "@mantine/core": "^8.3.6",
     "@mantine/hooks": "^8.3.6",
+    "@types/webextension-polyfill": "^0.12.4",
+    "babel": "^5.8.38",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.2.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "ts-node": "^10.9.2"
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "webextension-polyfill": "^0.12.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
