@@ -34,7 +34,7 @@ func main() {
 
 	mux.HandleFunc("GET /tweet/dislike", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
-		tweetId := r.URL.Query().Get("tweetId")
+		tweetId, profileId := r.URL.Query().Get("tweetId"), r.URL.Query().Get("profileId")
 		outputObj := make(map[string]any)
 
 		defer func() {
@@ -57,6 +57,11 @@ func main() {
 
 		outputObj["dislikeCount"] = len(fileDataObj[tweetId].DislikeBy)
 		outputObj["tweetId"] = tweetId
+		outputObj["userDislike"] = false
+
+		if _, ok := fileDataObj[tweetId].DislikeBy[profileId]; ok {
+			outputObj["userDislike"] = true
+		}
 	})
 
 	// localhost:8888/tweet/dislike?ownerId=ThongWeeDaphne&tweetId=1988856015710834969&profileId=KevinAkmuo
@@ -104,6 +109,11 @@ func main() {
 
 		outputObj["dislikeCount"] = len(fileDataObj[tweetId].DislikeBy)
 		outputObj["tweetId"] = tweetId
+		outputObj["userDislike"] = false
+
+		if _, ok := fileDataObj[tweetId].DislikeBy[profileId]; ok {
+			outputObj["userDislike"] = true
+		}
 	})
 
 	endpoint := fmt.Sprintf("%s:%d", HOST, PORT)

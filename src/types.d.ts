@@ -11,7 +11,8 @@ type APIMessage = {
 
 type APIValidResponse = {
     dislikeCount: int, 
-    tweetId: string
+    tweetId: string, 
+    userDislike:bool
 }
 
 type APIErrorResponse = {

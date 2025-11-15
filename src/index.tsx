@@ -48,6 +48,7 @@ function addDislikeButton(parentTweetDiv:HTMLDivElement) {
 
     const container = document.createElement('div'); 
     container.id = elementId
+    container.className = "css-175oi2r r-18u37iz r-1h0z5md r-13awgt0"
 
     const likesButton = footer.querySelector<HTMLDivElement>("div:nth-child(3)")
     if(!likesButton) {
